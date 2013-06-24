@@ -1,0 +1,184 @@
+\documentclass[letter,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tabularx}
+\usepackage{float}
+\pagestyle{fancy} 
+\fancypagestyle{plain}
+{%
+         \fancyhead[l]{}
+         \fancyhead[r]{}
+         \fancyhead[c]{}
+         \renewcommand{\headrulewidth}{0.5pt}
+         \fancyfoot[l]{SCESI \\ Sociedad Cient\'ifica de Estudiantes de Sistemas e Inform\'atica}
+         \fancyfoot[c]{}
+         %\fancyfoot[r]{\thepage/\pageref{LastPage}}
+         \renewcommand{\footrulewidth}{0.5pt}
+}
+% Para el resto de páginas
+\lhead{Proyecto Seguridad de jornadas}
+\chead{}
+\rhead{\includegraphics[width=0.1\textwidth]{logo2.png}}
+\renewcommand{\headrulewidth}{0.4pt}
+\lfoot{SCESI \\ Sociedad Cient\'ifica de Estudiantes de Sistemas e Inform\'atica \\ 
+\url {http://scesi.fcyt.umss.edu.bo}}
+\cfoot{}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\footrulewidth}{0.4pt}
+% Title Page
+\title{Seguridad de Jornadas}
+%NOMBRE DEL AUTOR O AUTORES
+\author{
+	Elvis Ramirez 			\\ 
+	Fernando Solis Tapia	\\ 
+	Jorge Lipa Challapa		\\ 
+	David Mercado Arispe	\\ 
+	Juan Ach\'a Maraza		\\ 
+	Jose Valdivia			\\ 
+	Valerio Terrazas
+}
+
+\begin{document}
+\maketitle
+\begin{center}
+    \includegraphics[width=1.0\textwidth]{logo.png} 
+\end{center}
+\begin{center}
+    \url {http://scesi.fcyt.umss.edu.bo}
+\end{center}
+\pagebreak
+\tableofcontents
+\pagebreak
+%\begin{abstract}
+
+%\end{abstract}
+%\pagebreak
+\section{Introducci\'on}
+
+Uno de los problemas de seguridad mas frecuentes a sido el control acceso a los ambientes que requieren un acceso especial. Las diferentes soluciones que se dan para estos problemas llegan a tener dificultades, ya sea por tiempo, recursos o personal administrativo, los costos de estos sistemas llegan a ser muy altos o tiene una implementacion muy confusa para personas normales. \\
+
+El sistema \textit{Seguridad de jornadas}, como aplicaci\'on permitira el control de de acceso y demas actividades que necesiten una verificaci\'on de itentidad utlizando amarino, tecnologia nos permitira elaborar instrumentos permitiendo el acceso controlado de los participantes de manera r\'apida y eficiente con una implementacion simple y directa. \textit{Amarino} es la combinaci\'on de tecnologias, en este caso Android ( encontrada en dispositivos moviles )y Arduino (posee variedad en diferentes modulos con los que trabaja).
+
+\section{Antecedentes}
+
+RFID \textit{( Identificaci\'on de radio frecuencia)} es usado por varios dispositivos de identificaci\'on como art\'iculos comerciales o identificadores personales de esta manera se permite un control muy estricto sobre las actividades que giran en torno a estos. Al ser un complemento muy requerido arduino a dejado a disposition modulos compatibles con las placas Arduino Uno, Mega, Leopard, Nano, dando asi un f\'acil acceso a los desarrolladores para implementaciones mas sofisticadas y simples de utilizar.\\
+
+Unas de las herramientas mas cotidianas que utilizan personas normales son los  dispositivos moviles que bajo una infraestructura android ofrecen servicios de conectividad para diferentes redes y soporte de aplicaciones para un sinf\'in de actividades, un sistemas que esta disponible para dispositivosde alto y bajor rendimiento.
+
+ 
+\section{Definici\'on del Problema}
+
+Uno de los problemas mas regulares en las jornadas a sido el control de asistencia de los participantes y diferentes actividades que requieren de identificacion para una o varias operaciones tal es el caso, antes de entrar a un evento al que se a registrado, saber si asistio llega a ser muy problematico para el personal organizador pues requiere de mucho esfuerzo. \\
+
+Dadas estas circunstancias el saber si personas registradas o no han ingresaso al ambiente o han realizado alguna actividad que esta limitada a un grupo personas, esto lleva a variaciones que tiene que ser corregidas en ese momento para evitar problemas mayores.\\
+
+Los metodos de recolecci\'on de informaci\'on sobre los participante, llega a ser muy amplia lo que ocasiona que el procesamiento de documentos posteriores al evento sea moroso y repetitivo al tratar de verificar la correctitud de la informacion proporsionada, no olvidemos mencionar la generacion de reportes sobre las actividades o procesos que se realizaron. Esta informaci\'on es muy util para planificaciones futuras por el flujo de verificacion de todas las actividades y procesos sobre los eventos  esto mostrara de manera detallada mas a fondo si se realizaron de manera adecuada o falto personal de control y demas aspectos personales.
+
+\section{Objetivo General}
+	\begin{itemize}
+		\item Asegurar el control de las actividades o procesos que esten destinadas a un grupo de personas autentificadas mediantes tarjetas de identificaci\'on unicas, utilizando dispositivos electronicos para su validaci\'on.
+	\end{itemize}
+
+\section{Objetivos Espec\'ificos}
+	\begin{itemize}
+	
+		\item Establecer un componente electr/'onico que permita verificar el estado de registro del participante.
+		\item Controlar de forma remota el acceso de los participantes
+		\item Facilitar la generacion de reportes sobre la asistencia de los participantes.
+		\item Simplificar la generaci\'on de certificados de los participantes y personal administrativo. 
+	\end{itemize}
+
+\section{Recursos}
+
+Para la realizacion de este proyecto contaremos dispositivos electronicos y moviles para la ejecucion, se especificara en base al prototipo que se pretende realizar:\\
+
+\pagebreak
+
+\begin{table}
+	\centering
+	\begin{tabularx}{15cm}{X|X}
+	Dispositivo electr\'onico 					& Descripci\'on									\\ 
+	\hline
+	Arduino Uno 								& Placa electr\'onica de hardware libre 
+												  para la creaci\'on de prototipos basada en 
+												  software y hardware libre                     \\
+												& \\  
+	Tarjeta RFID Mifare S50 1k 13.56MHz         & Tarjetas plásticas que incorporan una 
+												  tecnología de comunicaci\'on radiofrecuencia  \\
+												& \\
+	Arduino RS232 13.56MHZ RFID 				& Modulo de lectura y escritura de
+												  tarjejas complatibles con Mifare S50  		\\
+												& \\												
+	Bluetooth HC-06 serial 4 Pin 				& El modulo BlueTooth HC-06 utiliza el protocolo 
+												  UART RS 232 serial. Es ideal para 
+												  aplicaciones inal\'ambricas, f\'acil de  
+												  implementar en componentes Arduino			\\
+												& \\
+	\end{tabularx} 
+	\caption{Tabla de dispositivos electronicos}		
+\end{table}	
+
+\section{Herramientas}
+Para cunplir con el proposito de este proyecto, describiremos en detalle las herramientas que desarrollo y entornos de trabajo bajo los cuales se 			elaborar el proyecto. Cabe resaltar que estas herramientas mencionadas no son aplicables a futuras actualizaciones.
+	
+	\subsection{Herramientas de desarrollo}
+	
+	Esta seccion detalla el software que se utilizara para su desarrollo en todos los ambientes que cubrira el proyecto y detallar su descricion con la versi\'on y y su desempenio segun \textbf{Tabla de herramientas de desarrollo}\ref{herramienta_desarrollo}.
+	
+
+	\begin{table}[H]
+		\begin{tabular}{l|c|l}
+			Herramienta       & Versi\'on   & Descripci\'on					   \\
+			\hline
+			Apache 			  & 2.2			& Servidor de aplicaciones web     \\
+			Php				  & 5.3			& Lenguage de programacion web     \\
+			MySQL             & 5.2			& Servidor de base de datos        \\
+			Yii framework     & 1.1.13  	& Entorno de trabajo basado en php \\
+			Android           & 2.3.3		& Entorno de trabajo basado en java\\
+			Arduino 		  & 1.0.5		& Entorno de trabajo basado en     \\
+							  &             & Processing					   \\	
+		\end{tabular}
+		\caption{ Tabla de herramientas de desarrollo}
+		\label{herramienta_desarrollo}
+	\end{table}
+
+\section{Metodo o Técnica}
+
+El metodo de desarrollo que se tomara se realizara, sera un derivado de las metodologias agiles (SCRUM) que estara detallada en los ciclos de desarrollo. Primeramente  detallaremos el personal o usuarios finales que manejaran el sistema y posteriormente .
+
+	\subsection{ Usuarios finales }
+	
+	\begin{description}
+		
+		\item [Participante del evento] Persona que portara la identificaci\'on para participar en la actividad.
+		\item [Encargado de registro de participantes] Persona que registra la tarjeta con la identificacion e informacion del participante.
+		\item [Encargado del control de las actividades]Esta persona controla el ingreso a la actividad, comprobando la actividad que se desea realizar.  extrayendo la informacion basica, el personal del control de actividades puede variar dependiendo de cantidad de las actividades que se tengan planeadas.
+		\item [Administrador de actividades] Persona que se encarga de administrar la informacion que se genera a partir de las verificaciones en las actividades.
+	\end{description}
+	
+	\subsection{Equipamiento}
+	
+	\begin{description}
+		\item[Tarjeta de identificaci\'on] Tarjeta que utiliza el participante para identificarse.
+		\item[Lector / escritor RFID] Dispositovo que facilita la lectura y escritura de las tarjetas de identificaci\'on.
+		\item[Aplicaci\'on movil - Notificaciones] Aplicacion que recibe notificaci\'ones sobre las lecturas que se haga en el lector RFID
+		\item[Aplicaci\'on movil - Verificaci\'on actividad] Aplicaci\o'n que permite validar la entreda de las identificaciones.
+		\item[Aplicaci\'on movil - Registro de usuarios] Aplicacion que permite el registro de nuevos participantes.
+	\end{description}		
+	
+\section{Justificaci\'on}
+
+Tener el acceso controlable de todos los participntes, con datos precisos referentes a horas de entrada y salida, asistencia, generacion de reportes sobre 
+la concurrencia a las actividades, datos estadisticos sobre el desarrollo del evento.\\
+
+Con el sistema de Seguridad en jornadas tendremos a disposicion una manera simple de control, que los mismos participantes encontrarar mas rapido y eficiente acortando asi la concurrencia, verificaciones. De este modo el trabajo del personal administrativo quedara reducido a que este presente el participante.
+
+\end{document}          
