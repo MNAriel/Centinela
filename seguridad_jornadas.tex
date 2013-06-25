@@ -24,7 +24,7 @@
          \renewcommand{\footrulewidth}{0.5pt}
 }
 % Para el resto de páginas
-\lhead{Proyecto Seguridad de jornadas}
+\lhead{Proyecto Centinela}
 \chead{}
 \rhead{\includegraphics[width=0.1\textwidth]{logo2.png}}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -34,7 +34,7 @@
 \rfoot{\thepage/\pageref{LastPage}}
 \renewcommand{\footrulewidth}{0.4pt}
 % Title Page
-\title{Seguridad de Jornadas}
+\title{Centinela}
 %NOMBRE DEL AUTOR O AUTORES
 \author{
 	Elvis Ramirez 			\\ 
@@ -43,7 +43,10 @@
 	David Mercado Arispe	\\ 
 	Juan Ach\'a Maraza		\\ 
 	Jose Valdivia			\\ 
-	Valerio Terrazas
+	Valerio Terrazas		\\
+	Ronald Oquendo			\\
+	Jhassmany Quiros		\\
+	Rodolfo Negron			\\				
 }
 
 \begin{document}
@@ -57,26 +60,22 @@
 \pagebreak
 \tableofcontents
 \pagebreak
-%\begin{abstract}
-
-%\end{abstract}
-%\pagebreak
 \section{Introducci\'on}
 
-Uno de los problemas de seguridad mas frecuentes a sido el control acceso a los ambientes que requieren un acceso especial. Las diferentes soluciones que se dan para estos problemas llegan a tener dificultades, ya sea por tiempo, recursos o personal administrativo, los costos de estos sistemas llegan a ser muy altos o tiene una implementacion muy confusa para personas normales. \\
+Uno de los problemas de seguridad mas frecuentes a sido el control acceso a los ambientes que requieren un acceso especial. Las diferentes soluciones que se dan para estos problemas llegan a tener dificultades, ya sea por tiempo, recursos o personal administrativo, los costos de estos sistemas llegan a ser muy altos o tiene una implementaci\'on muy confusa para personas normales. \\
 
-El sistema \textit{Seguridad de jornadas}, como aplicaci\'on permitira el control de de acceso y demas actividades que necesiten una verificaci\'on de itentidad utlizando amarino, tecnologia nos permitira elaborar instrumentos permitiendo el acceso controlado de los participantes de manera r\'apida y eficiente con una implementacion simple y directa. \textit{Amarino} es la combinaci\'on de tecnologias, en este caso Android ( encontrada en dispositivos moviles )y Arduino (posee variedad en diferentes modulos con los que trabaja).
+El sistema \textit{Centinelas}, como aplicaci\'on permitira el control de de acceso y demas actividades que necesiten una verificaci\'on de identidad utilizando \textit{Amarino}, tecnologia que nos permitira elaborar instrumentos permitiendo el acceso controlado de los participantes de manera r\'apida y eficiente con una implementaci\'on simple y directa. \textit{Amarino} es la combinaci\'on de tecnologias, en este caso Android ( encontrada en dispositivos moviles )y Arduino (posee variedad en diferentes m\'odulos con los que trabaja).
 
 \section{Antecedentes}
 
-RFID \textit{( Identificaci\'on de radio frecuencia)} es usado por varios dispositivos de identificaci\'on como art\'iculos comerciales o identificadores personales de esta manera se permite un control muy estricto sobre las actividades que giran en torno a estos. Al ser un complemento muy requerido arduino a dejado a disposition modulos compatibles con las placas Arduino Uno, Mega, Leopard, Nano, dando asi un f\'acil acceso a los desarrolladores para implementaciones mas sofisticadas y simples de utilizar.\\
+RFID \textit{( Identificaci\'on de radio frecuencia)} es usado por varios dispositivos de identificaci\'on como art\'iculos comerciales o identificadores personales de esta manera se permite un control muy estricto sobre las actividades que giran en torno a estos. Al ser un complemento muy requerido arduino a dejado a disposicion m\'odulos compatibles con las placas Arduino Uno, Mega, Leopard, Nano, dando asi un f\'acil acceso a los desarrolladores para implementaciones m\'as sofisticadas y simples de utilizar.\\
 
 Unas de las herramientas mas cotidianas que utilizan personas normales son los  dispositivos moviles que bajo una infraestructura android ofrecen servicios de conectividad para diferentes redes y soporte de aplicaciones para un sinf\'in de actividades, un sistemas que esta disponible para dispositivosde alto y bajor rendimiento.
 
  
 \section{Definici\'on del Problema}
 
-Uno de los problemas mas regulares en las jornadas a sido el control de asistencia de los participantes y diferentes actividades que requieren de identificacion para una o varias operaciones tal es el caso, antes de entrar a un evento al que se a registrado, saber si asistio llega a ser muy problematico para el personal organizador pues requiere de mucho esfuerzo. \\
+Uno de los problemas mas regulares en las jornadas ha sido el control de asistencia de los participantes y diferentes actividades que requieren de identificacion para una o varias operaciones tal es el caso, antes de entrar a un evento al que se a registrado, saber si asistio llega a ser muy problematico para el personal organizador pues requiere de mucho esfuerzo. \\
 
 Dadas estas circunstancias el saber si personas registradas o no han ingresaso al ambiente o han realizado alguna actividad que esta limitada a un grupo personas, esto lleva a variaciones que tiene que ser corregidas en ese momento para evitar problemas mayores.\\
 
@@ -98,7 +97,7 @@ Los metodos de recolecci\'on de informaci\'on sobre los participante, llega a se
 
 \section{Recursos}
 
-Para la realizacion de este proyecto contaremos dispositivos electronicos y moviles para la ejecucion, se especificara en base al prototipo que se pretende realizar:\\
+Para la realizaci\'on de este proyecto contaremos dispositivos electronicos y moviles para la ejecucion, se especificara en base al prototipo que se pretende realizar:\\
 
 \pagebreak
 
@@ -116,22 +115,24 @@ Para la realizacion de este proyecto contaremos dispositivos electronicos y movi
 												& \\
 	Arduino RS232 13.56MHZ RFID 				& Modulo de lectura y escritura de
 												  tarjejas complatibles con Mifare S50  		\\
-												& \\												
-	Bluetooth HC-06 serial 4 Pin 				& El modulo BlueTooth HC-06 utiliza el protocolo 
+												  & \\												
+	Bluetooth HC-06 serial 4 Pin (alternativa uno)& El modulo BlueTooth HC-06 utiliza el protocolo 
 												  UART RS 232 serial. Es ideal para 
 												  aplicaciones inal\'ambricas, f\'acil de  
 												  implementar en componentes Arduino			\\
-												& \\
+												  & \\
+	ENC28J60 Ethernet LAN (alternativa dos)    	  & Modulo de red adaptable a arduino			\\
+	
 	\end{tabularx} 
-	\caption{Tabla de dispositivos electronicos}		
+	\caption{Tabla de dispositivos electr\'onicos}		
 \end{table}	
 
 \section{Herramientas}
-Para cunplir con el proposito de este proyecto, describiremos en detalle las herramientas que desarrollo y entornos de trabajo bajo los cuales se 			elaborar el proyecto. Cabe resaltar que estas herramientas mencionadas no son aplicables a futuras actualizaciones.
+Para cumplir con el proposito de este proyecto, describiremos en detalle las herramientas que desarrollo y entornos de trabajo bajo los cuales se 			elaborar el proyecto. Cabe resaltar que estas herramientas mencionadas no son aplicables a futuras actualizaciones.
 	
 	\subsection{Herramientas de desarrollo}
 	
-	Esta seccion detalla el software que se utilizara para su desarrollo en todos los ambientes que cubrira el proyecto y detallar su descricion con la versi\'on y y su desempenio segun \textbf{Tabla de herramientas de desarrollo}\ref{herramienta_desarrollo}.
+	Esta secci\'on detalla el software que se utilizara para su desarrollo en todos los ambientes que cubrira el proyecto y detallar su descricion con la versi\'on y su desempenio segun \textbf{Tabla de herramientas de desarrollo}\ref{herramienta_desarrollo}.
 	
 
 	\begin{table}[H]
@@ -164,7 +165,7 @@ El metodo de desarrollo que se tomara se realizara, sera un derivado de las meto
 		\item [Administrador de actividades] Persona que se encarga de administrar la informacion que se genera a partir de las verificaciones en las actividades.
 	\end{description}
 	
-	\subsection{Equipamiento}
+	\subsection{Prototipo final}		
 	
 	\begin{description}
 		\item[Tarjeta de identificaci\'on] Tarjeta que utiliza el participante para identificarse.
@@ -176,9 +177,8 @@ El metodo de desarrollo que se tomara se realizara, sera un derivado de las meto
 	
 \section{Justificaci\'on}
 
-Tener el acceso controlable de todos los participntes, con datos precisos referentes a horas de entrada y salida, asistencia, generacion de reportes sobre 
-la concurrencia a las actividades, datos estadisticos sobre el desarrollo del evento.\\
+Tener el acceso controlable de todos los participantes, con datos precisos referentes a horas de entrada y salida, asistencia, generaci\'on de reportes sobre la concurrencia a las actividades, datos estadisticos sobre el desarrollo del evento.\\
 
-Con el sistema de Seguridad en jornadas tendremos a disposicion una manera simple de control, que los mismos participantes encontrarar mas rapido y eficiente acortando asi la concurrencia, verificaciones. De este modo el trabajo del personal administrativo quedara reducido a que este presente el participante.
+Con el sistema de Seguridad en jornadas tendremos a disposici\'on una manera simple de control, que los mismos participantes encontrarar mas rapido y eficiente acortando asi la concurrencia, verificaciones. De este modo el trabajo del personal administrativo quedara reducido a que este presente el participante.
 
 \end{document}          
