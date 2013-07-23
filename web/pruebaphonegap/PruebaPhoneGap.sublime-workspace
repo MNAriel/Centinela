@@ -1,0 +1,429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jq-",
+				"jq-boilerplate-min	jQuery Plugin Boilerplate Minified"
+			],
+			[
+				"jQuery",
+				"event.preventDefault()	jQuery"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"do",
+				"format-detection"
+			],
+			[
+				"jqms",
+				"jqmstarter	jQuery Mobile starter page"
+			],
+			[
+				"jq",
+				"jqmstarter	jQuery Mobile starter page"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"usua",
+				"Usuario"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery Plugin Boilerplate"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"syn php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ardu",
+				"Set Syntax: Arduino"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"packac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax css",
+				"Set Syntax: CSS"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Pak",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: fo",
+				"Snippet: <?php foreach (…) … <?php endforeach ?>"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/servidor/apache2/htdocs/pruebaphonegap/assets/www/index.html",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/DDEExecute.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/DDEExecute.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Beamer.sublime-completions",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Beamer frame.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Beamer boxes.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/.gitignore",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Linux).sublime-keymap",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Wrap in environment.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Wrap in command.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/viewPDF.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/viewPDF.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_show.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_show.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_fwdsync.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_fwdsync.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_focus.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_focus.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_auto.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/toggle_auto.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Text underline.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Text monospace.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Text emphasize.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Text boldface.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/texSections.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/texSections.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/texMacro.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/texMacro.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/table.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Symbol List - Sections.tmPreferences.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Symbol List - Sections.tmPreferences",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Symbol List - Labels.tmPreferences.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Symbol List - Labels.tmPreferences",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/README.markdown",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/parseTeXlog.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/parseTeXlog.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/package-metadata.json",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/messages.json",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/makePDF.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/makePDF.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Main.sublime-menu",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeXTools Preferences.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latexEnvironment.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latexEnvironment.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latexEnvCloser.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latexEnvCloser.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latexCommand.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latexCommand.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latex_ref_completions.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latex_ref_completions.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latex_ref_cite_completions.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latex_ref_cite_completions.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latex_cite_completions.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/latex_cite_completions.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-completions",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-commands",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build.OLD",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX math.sublime-completions",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/jumpToPDF.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/jumpToPDF.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/getTeXRoot.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/getTeXRoot.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/figure.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/delete_temp_files.pyc",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/delete_temp_files.py",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Windows).sublime-keymap.OLD",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (OSX).sublime-keymap.OLD",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (OSX).sublime-keymap",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/Default (Linux).sublime-keymap.OLD",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Equation.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Figure.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Item[description].sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Itemize.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Enumerate.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX Beamer.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX Beamer.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX Log.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX Log.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX Memoir.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX Memoir.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Listing.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Matrix.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/LaTeX.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Page.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Paragraph.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Part.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/section-..-(section).sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Section.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Split.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Sub-Paragraph.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/subsection-..-(sub).sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/subsubsection-..-(ssub).sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Table.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Tabular.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/TeX Math.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/TeX Math.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/TeX.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/TeX.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/begin{}-end{}.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Bibtex.tmLanguage",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Bibtex.tmLanguage.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Cases.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Chapter.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Comments.tmPreferences",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Comments.tmPreferences.cache",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Description.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/LaTeX/Displaymath-($$).sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/.editorconfig",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-array-foreach.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-class-init.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-dispose.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-enum.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-events-callback.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-events-dispatch.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-events-listen.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-events-setParentTarget.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-function.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-object-foreach.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-singleton.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/closure-typedef.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/package-metadata.json",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/Google Closure Library snippets/README.md",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/jQuery/add.sublime-snippet",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/package-metadata.json",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 2/Packages/jQuery Snippets pack/plugin-boilerplate.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DIRECTORY_SEPARATOR"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"DIRECTORY_SEPARATOR"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.stino_log":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cotrno",
+				"protected/controllers/SiteController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true
+}
